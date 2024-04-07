@@ -3,7 +3,7 @@ import smtplib
 import email.message
 import pandas as pd
 
-dados = pd.read_excel(r'D:\Nova pasta\projetos\emailautomatico\clientes.xlsx', sheet_name='Plan1')
+dados = pd.read_excel(r'caminho para o arquivo', sheet_name='Nome da planilha ')
 
 
 def enviar_email(nome,valor,data_vencimento,endereco_email):  
